@@ -1,0 +1,582 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.cuerpo {
+    height: 3000px;
+    width: 1170px;
+    padding-left: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.more {
+    background-image: url(materiales/Captura\ de\ pantalla\ 2024-11-26\ 232812.png);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+}
+
+.logo {
+    width: 220px;
+    height: 50px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.lupa {
+    background-image: url(materiales/Captura\ de\ pantalla\ 2024-11-26\ 233735.png);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 2px;
+    height: 26px;
+    width: 32px;
+}
+
+.search-box {
+    width: 280px;
+    height: 24px;
+    padding-left: 35px;
+}
+
+.search-button {
+    border-style: inset;
+    font-family: sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    padding: 2px 11px;
+    cursor: pointer;
+    border: 1px;
+    border-left: 0;
+    width: 70px;
+    height: 30px;
+}
+
+.login {
+    color: lightskyblue;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+.puntitos {
+    background-image: url(materiales/Captura\ de\ pantalla\ 2024-11-27\ 190156.png);
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+}
+
+.space {
+    padding: 10px;
+}
+
+.entrepagina {
+    height: 24px;
+}
+
+.navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    padding-left: 15px;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+.nav-left {
+    display: flex;;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.herramientas {
+    cursor: pointer;
+    background-color: white;
+    border: 0;
+    padding-right: 18px;
+}
+
+#inicio-menu-h {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav-list {
+    padding-left: 15px;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: baseline;
+    font-size: 0.875rem;
+}
+
+#general {
+    padding-right: 100px;
+    border: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(219, 216, 216);
+    border-style: solid;
+}
+
+#imprimir {
+    padding-right: 100px;
+    border: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(219, 216, 216);
+    border-style: solid;
+}
+
+#proyectos {    
+    padding-right: 100px;
+    border: 1px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: rgb(219, 216, 216);
+    border-style: solid;
+}
+
+.herramientas-menu {
+    border: 1px;
+    border-style: solid;
+    border-color: whitesmoke;
+    right: 60px;
+    padding-top: 14px;
+    padding: 5px;
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: white;
+}
+
+.barra-lat {
+    border-style: inset;
+    font-family: sans-serif;
+    width: 140px;
+    height: 20px;
+    font-size: 12px;
+    color: black;
+    background-color: whitesmoke;
+    margin-top: 5px;
+    padding: 0;
+    cursor: pointer;
+    border: 1px;
+    border-left: 0;
+}
+
+.linea-black {
+    height: 0.5px;
+    width: 1150px;
+    background-color:gray;
+}
+
+.welcome {
+    background-image: url(materiales/wikipedia.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0,5px;
+    border-style: ridge;
+    border-radius: 2px;
+}
+
+.bienvenida {
+    font-size: 30px;
+}
+
+.welcome-list {
+    padding-left: 0px;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+    font-size: 0.875rem;
+}
+
+.izquier {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dere {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cuerpo-left {
+    width: 600px;
+    height: 800px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.cuerpo-right {
+    width: 550px;
+    height: 800px;
+    padding: 10px;
+    font-size: 16px;    
+}
+
+.destacadito {
+    border: 0,5px;
+    border-style: ridge ;
+    padding: 20px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+#titulo-d {
+    color: grey;
+}
+
+.titulo {
+    font-size: 25px;
+}
+
+#first-p {
+    display: flex;
+
+}
+
+#completito {
+    padding: 10px;
+    width: 160px;
+    height: 110px;
+}
+
+.sub-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sub-2 {
+font-size: 15px;
+}
+
+.kudu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#kudu {
+    width: 400px;
+    padding-top: 20px;
+}
+
+.portal {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px;
+    border-color: grey;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-style: ridge;
+}
+
+.arte {
+    background-image: url(materiales/Nuvola_apps_package_graphics.svg.png);
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.sociales {
+    background-image: url(materiales/Sciences_humaines.svg.png);
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.naturales {
+    background-image: url(materiales/Science-symbol-2.svg.png);
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.geografia {
+    background-image: url(materiales/Ambox_globe.svg.png);
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.historia {
+    background-image: url(materiales/History2.svg.png);
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.politica {
+    background-image: url(materiales/Vote3_final.png);
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.religion {
+    background-image: url(materiales/P_religion_world.svg.png);
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.tecnologias {
+    background-image: url(materiales/Tecno-rueda.svg.png);
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+
+.logo-p {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.proyect-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.proyect-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.proyect-3 {
+    display: flex;
+}
+
+.proyect-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.b-idioma {
+    padding: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.idiomas {
+    background-image: url(materiales/Captura\ de\ pantalla\ 2024-12-11\ 203200.png);
+    background-size: contain;
+    border: 0;
+    margin-bottom: 290px;
+    cursor: pointer;
+    width: 140px;
+    height: 25px;
+}
+
+.full-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bajada {
+    position: relative;
+    right:620px;
+    display: flex;
+    width: 1170px;
+    padding-left: 20px;
+    border: 1px;
+    border-color: grey;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: ridge;
+}
+
+.text-b {
+    font-size: 12px;
+}
+
+.wikp {
+    background-image: url(materiales/Captura\ de\ pantalla\ 2024-12-12\ 005238.png);
+    background-size: cover;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.powm {    
+    background-image: url(materiales/Captura\ de\ pantalla\ 2024-12-12\ 005527.png);
+    background-size: cover;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.boton-f {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-right: 30px;
+}
+@media only screen and (max-width: 768px) {
+
+    .linea-black {
+        width: 530px;
+    }
+    .cuerpo {
+        height: 0px;
+        width: 0px;
+        padding-left: 18px;
+    }
+    
+    .header {
+        padding: 0;
+    }
+    .search-box {
+        width: 150px;
+        height: 13px;
+        padding-left: 17px;
+        font-size: 11px;
+    }
+    .lupa {
+        height: 13px;
+        width: 16px;
+    }
+    .search-button {
+        height: 19px;
+        width: 50px;
+        padding-left: 8px;
+        font-size: 10px;
+    }
+    .more {
+        width: 20px;
+        height: 20px;
+    }
+    .puntitos {
+        width: 20px;
+        height: 20px;
+    }
+    .list {
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    .space {
+        padding: 5px;
+    }
+    .logo {
+        height: 30px;
+        width: 120px;
+    }
+    .nav-list {
+        font-size: 10px;
+    }
+    #h-boton {
+        font-size: 10px;
+    }
+    .navegacion {
+        width: 560px;
+    }
+    .bienvenida {
+        font-size: 15px;
+    }
+    .welcome {
+        font-size: 10px;
+        width: 500px;
+    }
+
+    .cuerpo-left {
+        width: 540px;
+    }
+
+    .full-body {
+        width: 570px;
+        height: 3500px;
+        flex-direction: column;
+    }
+    .bajada {
+        right: 0;
+        width: 540px;
+    }
+    .wikp {
+        width: 60px;
+        height: 20px;
+    }
+    .powm {    
+        width: 60px;
+        height: 20px;
+    }   
+    .boton-f {
+        font-size: 10px;
+    }
+}

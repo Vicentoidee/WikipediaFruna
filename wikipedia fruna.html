@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia fruna</title>
+    <link rel="icon" href="materiales/Wikipedia's_W.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="wikipedia fruna.css">
+</head>
+<body>
+    <div class="cuerpo"><header>
+        <div class="header">
+            <div class="left"> 
+                <button class="more"></button>
+                <img class="logo" src="materiales/Captura de pantalla 2024-11-26 232555.png" alt="logo">
+            </div>
+            <div class="search-bar">
+                <button class="lupa"></button>
+                <input class="search-box" type="text" placeholder="Buscar en wikipedia">
+                <button class="search-button">Buscar</button>
+            </div>
+            <div class="login">
+                <ul class="list">
+                    <li class="space"><a href="https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=CL&uselang=es&wmf_medium=sidebar&wmf_source=donate&wmf_campaign=C13_es.wikipedia.org" target="_blank">Donaciones</a></li>
+                    <li class="space"><a href="https://es.wikipedia.org/w/index.php?title=Especial:Crear_una_cuenta&returnto=Wikipedia%3APortada" target="_blank">Cuenta</a></li>
+                    <li class="space"><a href="https://es.wikipedia.org/w/index.php?title=Especial:Entrar&returnto=Wikipedia%3APortada" target="_blank">Acceder</a></li>
+                    <button class="puntitos"></button>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="pagina">
+        <div class="entrepagina"></div>
+        <div class="linea-black"></div>
+        <div class="navegacion">
+            <div class="nav-left">
+                <ul class="nav-list">
+                    <li class="space"><a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank">Portada</a></li>
+                    <li class="space"><a href="https://es.wikipedia.org/wiki/Wikipedia_discusi%C3%B3n:Portada" target="_blank">Discusion</a></li>
+                </ul>
+            </div>
+            <nav>
+                <div class="nav-right">
+                <ul class="nav-list">
+                    <li class="space"><a href="https://es.wikipedia.org/wiki/Wikipedia:Portada" target="_blank">Leer</a></li>
+                    <li class="space"><a href="https://es.wikipedia.org/w/index.php?title=Wikipedia:Portada&action=edit" target="_blank">Ver codigo fuente</a></li>
+                    <li class="space"><a href="https://es.wikipedia.org/w/index.php?title=Wikipedia:Portada&action=history" target="_blank">Ver historial</a></li>
+                    <li class="herramientas">
+                        <button id="h-boton" class="herramientas">Herramientas  V</button>
+                        <ul id="herramienta-menu" class="herramientas-menu">
+                            <li id="inicio-menu-h" class="space">Herramientas <button class="barra-lat">Mover a la barra lateral</button></li>
+                            <li id="general" class="space">General</li>
+                            <li class="space"><a href="https://es.wikipedia.org/wiki/Especial:LoQueEnlazaAqu%C3%AD/Wikipedia:Portada" target="_blank">Lo que enlaza aqui</a></li>
+                            <li class="space"><a href="https://es.wikipedia.org/wiki/Especial:CambiosEnEnlazadas/Wikipedia:Portada" target="_blank">Cambios en enlazadas</a></li>
+                            <li class="space"><a href="https://commons.wikimedia.org/wiki/Special:UploadWizard?uselang=es" target="_blank">Subir archivo</a></li>
+                            <li class="space"><a href="https://es.wikipedia.org/wiki/Especial:P%C3%A1ginasEspeciales" target="_blank">Paginas especiales</a></li>
+                            <li class="space"><a href="https://es.wikipedia.org/w/index.php?title=Wikipedia:Portada&oldid=149134229" target="_blank">Enlace permanente</a></li>
+                            <li class="space"><a href="https://es.wikipedia.org/w/index.php?title=Wikipedia:Portada&action=info" target="_blank">Informacion de la pagina</a></li>
+                            <li class="space"><a href="https://es.wikipedia.org/w/index.php?title=Especial:Acortador_de_URL&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FWikipedia%3APortada" target="_blank">Obtener URL acortado</a></li>
+                            <li class="space"><a href="https://es.wikipedia.org/w/index.php?title=Especial:QrCode&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FWikipedia%3APortada" target="_blank">Descargar codigo QR</a></li>
+                            <li class="space"><a href="#" id="expandir" onclick="Cambiartexto()">Expandir todo</a></li>
+                            <li id="imprimir" class="space">Imprimir/exportar</li>
+                            <li class="space"><a href="https://es.wikipedia.org/w/index.php?title=Especial:Libro&bookcmd=book_creator&referer=Wikipedia%3APortada" target="_blank">Crear un libro</a></li>
+                            <li class="space"><a href="https://es.wikipedia.org/w/index.php?title=Especial:DownloadAsPdf&page=Wikipedia%3APortada&action=show-download-screen" target="_blank">Descargar como PDF</a></li>
+                            <li class="space"><a href="https://es.wikipedia.org/w/index.php?title=Wikipedia:Portada&printable=yes" target="_blank">Version para imprimir</a></li>
+                            <li id="proyectos" class="space">En otros proyectos</li>
+                            <li class="space"><a href="https://commons.wikimedia.org/wiki/Main_Page" target="_blank">Wikipedia commons</a></li>
+                            <li class="space"><a href="https://foundation.wikimedia.org/wiki/Home" target="_blank">Fundacion wikipedia</a></li>
+                            <li class="space"><a href="https://www.mediawiki.org/wiki/MediaWiki" target="_blank">Mediawiki</a></li>
+                            <li class="space"><a href="https://meta.wikimedia.org/wiki/Main_Page" target="_blank">Meta-wiki</a></li>
+                            <li class="space"><a href="https://outreach.wikimedia.org/wiki/Main_Page" target="_blank">Divulgacion de wikipedia</a></li>
+                            <li class="space"><a href="https://wikisource.org/wiki/Main_Page" target="_blank">Wikisource multilingüe</a></li>
+                            <li class="space"><a href="https://species.wikimedia.org/wiki/Main_Page" target="_blank">Wikiespecies</a></li>
+                            <li class="space"><a href="https://es.wikibooks.org/wiki/Portada" target="_blank">Wikilibros</a></li>
+                            <li class="space"><a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" target="_blank">Wikidata</a></li>
+                            <li class="space"><a href="https://www.wikifunctions.org/wiki/Wikifunctions:Main_Page" target="_blank">Wikifunciones</a></li>
+                            <li class="space"><a href="https://wikimania.wikimedia.org/wiki/Wikimania" target="_blank">wikimania</a></li>
+                            <li class="space"><a href="https://es.wikinews.org/wiki/Portada" target="_blank">Wikinoticias</a></li>
+                            <li class="space"><a href="https://es.wikiquote.org/wiki/Portada" target="_blank">Wikiquote</a></li>
+                            <li class="space"><a href="https://es.wikisource.org/wiki/Portada" target="_blank">Wikisource</a></li>
+                            <li class="space"><a href="https://es.wikiversity.org/wiki/Portada" target="_blank">Wikiversidad</a></li>
+                            <li class="space"><a href="https://es.wikivoyage.org/wiki/P%C3%A1gina_principal" target="_blank">Wikiviajes</a></li>
+                            <li class="space"><a href="https://es.wiktionary.org/wiki/Wikcionario:Portada" target="_blank">Wikcionario</a></li>
+                            <li class="space"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q5296" target="_blank">Elemento de wikidata</a></li>
+
+                        </ul>
+                    </li> 
+                </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="linea-black"></div>
+        <div class="welcome">
+            <div class="izquier"><p class="bienvenida"><a href="https://es.wikipedia.org/wiki/Wikipedia:Bienvenidos" target="_blank">Bienvenidos</a> a Wikipedia,</p>
+            <p>la enciclopedia de contenido libre que <a href="https://es.wikipedia.org/wiki/Ayuda:Introducci%C3%B3n" target="_blank">todos pueden editar.</a></p></div>
+            <div class="dere"><p><a href="https://es.wikipedia.org/wiki/Especial:Estad%C3%ADsticas" target="_blank">1 993 877</a> articulos <a href="https://es.wikipedia.org/wiki/Wikipedia_en_espa%C3%B1ol" target="_blank">en español.</a></p>
+            <ul class="welcome-list">
+                <li class="space"><button><a href="https://es.wikipedia.org/wiki/Wikipedia:Contacto" target="_blank">Contacto</a></button></li>
+                <li class="space"><button><a href="https://es.wikipedia.org/wiki/Ayuda:Contenidos" target="_blank">Ayuda</a></button></li>
+                <li class="space"><button><a href="https://es.wikipedia.org/wiki/Ayuda:Introducci%C3%B3n" target="_blank">Primero pasos</a></button></li>
+                <li class="space"><button><a href="https://es.wikipedia.org/wiki/Ayuda:C%C3%B3mo_puedes_colaborar" target="_blank">¿Como colaborar?</a></button></li>
+                <li class="space"><button><a href="https://es.wikipedia.org/wiki/Wikipedia:Caf%C3%A9" target="_blank">Cáfe</a></button></li>
+            </ul></div>
+        </div>
+        <div class="full-body">
+            <div class="cuerpo-left">
+                <div class="destacadito">
+                    <p id="titulo-d">Articulo destacado</p>
+                    <a class="titulo" href="https://es.wikipedia.org/wiki/Completo_(gastronomía)" target="_blank">Completo (gastronomia)</a> 
+                    <div id="first-p">
+                        <p>El completo es un bocadillo tradicional de Chile que consiste en un pan de hot dog, «pan de completo» o «pan copihue» abierto a lo largo, con una vienesa en el medio sobre la cual se colocan diversos ingredientes.</p>
+                        <img id="completito" src="/materiales/Completo_italiano.jpg" alt="completito">
+                    </div>
+                    <p>Es una de las especialidades de comida rápida más comunes y conocidas en Chile. Se diferencia del tradicional hot dog estadounidense por llevar una mayor cantidad de ingredientes y aderezos y, además, por tener un mayor tamaño.</p>
+                    <p>Aunque la creación del hot dog se remonta a la segunda mitad del siglo XIX en los Estados Unidos, a Chile habría llegado muchos años después.</p>
+                    <p>Eduardo Bahamondes habría sido el primero en importar la idea del hot dog a Chile durante los años 1920. Bahamondes, quien había trabajado en restaurantes estadounidenses, decidió abrir un local en el Portal Fernández Concha, junto a la Plaza de Armas de Santiago. El Quick Lunch Bahamondes fue así el primer local en vender esta variedad de sándwich, que popularizó el local ubicado en pleno centro de la capital. Además, Bahamondes introdujo nuevos ingredientes, puesto que el ketchup y la mostaza originales no eran de gran aceptación en la población de la época. Así, incorporó mayonesa, chucrut, tomate, palta, cebolla y perejil, entre otros ingredientes.</p>
+                    <p>La idea del completo se expandió a otros locales del sector, quedando el Portal Fernández Concha hasta la fecha como un centro de comida rápida en Santiago, especialmente de completos. Posteriormente, el restaurante Nuria de calle Huérfanos se especializó en versiones gigantes del completo, mientras que el Dominó, nacido en 1952 en la calle Agustinas, popularizó diversas variedades y se caracterizó por un servicio expreso. Con el paso del tiempo, el completo se expandió a otras ciudades de Chile.</p>
+                    <div class="sub-1">
+                        <div><button class="sub-2"><a href="https://es.wikipedia.org/wiki/Completo_(gastronomía)">Leer</a></button>
+                        <button class="sub-2"><a href="https://es.wikipedia.org/wiki/Wikipedia:Art%C3%ADculos_destacados/%C3%8Dndice">Todos los articulos destacados</a></button></div>
+                        <button class="puntitos"></button>
+                    </div>
+                </div>
+                <div class="destacadito">
+                    <p id="titulo-d">Articulo bueno</p>
+                    <a class="titulo" href="https://es.wikipedia.org/wiki/%E2%80%A6And_Justice_for_All_(%C3%A1lbum)">...And justice for all</a>
+                    <p>...And Justice for All es el cuarto álbum de estudio del grupo musical estadounidense de thrash metal Metallica, publicado el 7 de septiembre de 1988 a través de Elektra Records en Norteamérica y por Vertigo Records en Europa. Se trata del primer álbum de estudio con el bajista Jason Newsted, que sustituyó a Cliff Burton tras su muerte en 1986. Newsted ya había aparecido en el EP The $5.98 E.P.: Garage Days Re-Revisited, su primer trabajo con Metallica.</p>
+                    <div class="sub-1">
+                    <div><button class="sub-2"><a href="https://es.wikipedia.org/wiki/%E2%80%A6And_Justice_for_All_(%C3%A1lbum)">Leer</a></button>
+                        <button class="sub-2"><a href="https://es.wikipedia.org/wiki/Wikipedia:Art%C3%ADculos_buenos/%C3%8Dndice">Todos los articulos buenos</a></button></div>
+                        <button class="puntitos"></button>
+                    </div>
+                </div>
+                <div class="destacadito">
+                    <a class="titulo" href="https://es.wikipedia.org/wiki/Wikipedia:Recurso_del_d%C3%ADa">Recurso del día</a>
+                    <div class="kudu">
+                        <img id="kudu" src="materiales/Tragelaphus_strepsiceros_♂_(head).jpg.webp" alt="kudu">
+                        <p>Gran kudú</p>
+                    </div>
+                    <p>El gran kudú o kudú mayor (Tragelaphus strepsiceros) es una especie de mamífero artiodáctilo de la subfamilia Bovinae. Habita las sabanas boscosas del África austral y oriental. Es el tercer antílope en cuanto a tamaño, solamente superado por las dos especies del género Taurotragus.</p>
+                    <button id="archivo" class="sub-2"><a href="https://es.wikipedia.org/wiki/Wikipedia:Recurso_del_d%C3%ADa">Archivo</a></button>
+                </div>
+                <div class="destacadito">
+                    <a class="titulo" href="https://es.wikipedia.org/wiki/Wikipedia:Portal">Portales</a>
+                    <div class="portal">
+                        <p><a href="https://es.wikipedia.org/wiki/Portal:Arte">Artes </a>: <a href="https://es.wikipedia.org/wiki/Portal:Arquitectura">Arquitectura</a> - <a href="https://es.wikipedia.org/wiki/Portal:Cine">Cine</a> - <a href="https://es.wikipedia.org/wiki/Portal:Danza">Danza</a> - <a href="https://es.wikipedia.org/wiki/Portal:Literatura">Literatura</a> - <a href="https://es.wikipedia.org/wiki/Portal:M%C3%BAsica">Musica</a> - <a href="https://es.wikipedia.org/wiki/Portal:M%C3%BAsica_cl%C3%A1sica">Musica clasica</a> - <a href="https://es.wikipedia.org/wiki/Portal:Pintura">Pintura</a> - <a href="https://es.wikipedia.org/wiki/Portal:Teatro">Teatro</a></p>
+                        <button class="arte"><a href="https://es.wikipedia.org/wiki/Archivo:Nuvola_apps_package_graphics.svg">_</a></button>
+                    </div>
+                    <div class="portal">
+                        <p><a href="https://es.wikipedia.org/wiki/Portal:Ciencias_humanas_y_sociales">Ciencias sociales </a>: <a href="https://es.wikipedia.org/wiki/Portal:Comunicaci%C3%B3n">Comunicacion</a> - <a href="https://es.wikipedia.org/wiki/Portal:Deporte">Deporte</a> - <a href="https://es.wikipedia.org/wiki/Portal:Derecho">Derecho</a> - <a href="https://es.wikipedia.org/wiki/Portal:Econom%C3%ADa">Economia</a> - <a href="https://es.wikipedia.org/wiki/Portal:Feminismo">Feminismo</a> - <a href="https://es.wikipedia.org/wiki/Portal:Filosof%C3%ADa">Filosofia</a> - <a href="https://es.wikipedia.org/wiki/Portal:LGBT">LGTV</a> - <a href="https://es.wikipedia.org/wiki/Portal:Ling%C3%BC%C3%ADstica">LingÜistica</a> - <a href="https://es.wikipedia.org/wiki/Portal:Psicolog%C3%ADa">Psicologia</a> - <a href="https://es.wikipedia.org/wiki/Portal:Sociolog%C3%ADa">Sociologia</a></p>
+                        <button class="sociales"><a href="https://es.wikipedia.org/wiki/Archivo:Sciences_humaines.svg">_</a></button>
+                    </div>
+                    <div class="portal">
+                        <p><a href="https://es.wikipedia.org/wiki/Portal:Ciencias_naturales">Ciencias naturales </a>: <a href="https://es.wikipedia.org/wiki/Portal:Astronom%C3%ADa">Astronomia</a> - <a href="https://es.wikipedia.org/wiki/Portal:Biolog%C3%ADa">Biologia</a> - <a href="https://es.wikipedia.org/wiki/Portal:Bot%C3%A1nica">Botanica</a> - <a href="https://es.wikipedia.org/wiki/Portal:F%C3%ADsica">Fisica</a> - <a href="https://es.wikipedia.org/wiki/Portal:Medicina">Medicina</a> - <a href="https://es.wikipedia.org/wiki/Portal:Matem%C3%A1tica">Matematicas</a> - <a href="https://es.wikipedia.org/wiki/Portal:Qu%C3%ADmica">Quimica</a></p>
+                        <button class="naturales"><a href="https://es.wikipedia.org/wiki/Archivo:Science-symbol-2.svg">_</a></button>
+                    </div>
+                    <div class="portal">
+                        <p><a href="https://es.wikipedia.org/wiki/Portal:Geograf%C3%ADa">Geografia </a>: <a href="https://es.wikipedia.org/wiki/Portal:%C3%81frica">Africa</a> - <a href="https://es.wikipedia.org/wiki/Portal:Am%C3%A9rica">America</a> - <a href="https://es.wikipedia.org/wiki/Portal:Ant%C3%A1rtida">Antartida</a> - <a href="https://es.wikipedia.org/wiki/Portal:Asia">Asia</a> - <a href="https://es.wikipedia.org/wiki/Portal:Europa">Europa</a> - <a href="https://es.wikipedia.org/wiki/Portal:Ocean%C3%ADa">Oceania</a> - <a href="https://es.wikipedia.org/wiki/Portal:Pa%C3%ADses">Paises</a></p>
+                        <button class="geografia"><a href="https://es.wikipedia.org/wiki/Archivo:Ambox_globe.svg">_</a></button>
+                    </div>
+                    <div class="portal">
+                        <p><a href="https://es.wikipedia.org/wiki/Portal:Historia">Historia </a>: <a href="https://es.wikipedia.org/wiki/Portal:Prehistoria">Prehistoria</a> - <a href="https://es.wikipedia.org/wiki/Portal:Edad_Antigua">Edad antigua</a> - <a href="https://es.wikipedia.org/wiki/Portal:Edad_Media">Edad media</a> - <a href="https://es.wikipedia.org/wiki/Portal:Edad_Moderna">Edad moderna</a> - <a href="https://es.wikipedia.org/wiki/Portal:Edad_Contempor%C3%A1nea">Edad contemporanea</a></p>
+                        <button class="historia"><a href="https://es.wikipedia.org/wiki/Archivo:History2.svg">_</a></button>
+                    </div>
+                    <div class="portal">
+                        <p><a href="https://es.wikipedia.org/wiki/Portal:Pol%C3%ADtica">Politica </a>: <a href="https://es.wikipedia.org/wiki/Portal:Marxismo">Marxismo</a> - <a href="https://es.wikipedia.org/wiki/Portal:Nacionalismo">Nacionalismo</a> - <a href="https://es.wikipedia.org/wiki/Portal:Socialismo">Socialismo</a> - <a href="https://es.wikipedia.org/wiki/Portal:Terrorismo">Terrorismo</a></p>
+                        <button class="politica"><a href="https://es.wikipedia.org/wiki/Archivo:Vote3_final.png">_</a></button>
+                    </div>
+                    <div class="portal">
+                        <p><a href="https://es.wikipedia.org/wiki/Portal:Religi%C3%B3n">Religion </a>: <a href="https://es.wikipedia.org/wiki/Portal:Ate%C3%ADsmo">Ateismo</a> - <a href="https://es.wikipedia.org/wiki/Portal:Budismo">Budismo</a> - <a href="https://es.wikipedia.org/wiki/Portal:Cristianismo">Cristianismo</a> - <a href="https://es.wikipedia.org/wiki/Portal:Iglesia_cat%C3%B3lica">Iglesia catolica</a> - <a href="https://es.wikipedia.org/wiki/Portal:Islam">Islam</a> - <a href="https://es.wikipedia.org/wiki/Portal:Juda%C3%ADsmo">Judaismo</a> - <a href="https://es.wikipedia.org/wiki/Portal:Mitolog%C3%ADa">Mitologia</a></p>
+                        <button class="religion"><a href="https://es.wikipedia.org/wiki/Archivo:P_religion_world.svg">_</a></button>
+                    </div>
+                    <div class="portal">
+                        <p><a href="https://es.wikipedia.org/wiki/Portal:Tecnolog%C3%ADa">Tecnologias </a>: <a href="https://es.wikipedia.org/wiki/Portal:Biotecnolog%C3%ADa">Biotecnologia</a> - <a href="https://es.wikipedia.org/wiki/Portal:Exploraci%C3%B3n_espacial">Exploracion espacial</a> - <a href="https://es.wikipedia.org/wiki/Portal:Inform%C3%A1tica">Informatica</a> - <a href="https://es.wikipedia.org/wiki/Portal:Ingenier%C3%ADa">Ingenieria</a> - <a href="https://es.wikipedia.org/wiki/Portal:Software_libre">Software libre</a> - <a href="https://es.wikipedia.org/wiki/Portal:Videojuegos">Videojuegos</a></p>
+                        <button class="tecnologias"><a href="https://es.wikipedia.org/wiki/Archivo:Tecno-rueda.svg">_</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="cuerpo-right">
+                <div class="destacadito">
+                    <a class="titulo" href="https://es.wikipedia.org/wiki/Portal:Actualidad">Actualidad</a></p>
+                    <ul>
+                        <li>Guerra Israel-Gaza - Guerra libanesa-israelí - Invasión israelí del Líbano</li>
+                        <li>Invasión rusa de Ucrania</li>
+                        <li>Ofensiva rebelde de Siria - Caída de Damasco - Caída de la dinastía Ásad</li>
+                        <li>Protestas en Georgia</li>
+                        <li>11-18 de diciembre: Copa Intercontinental de la FIFA</li>
+                        <li>11-14 de diciembre: Winter Is Coming</li>
+                        <li>10-15 de diciembre: Campeonato Mundial de Natación en Piscina Corta</li>
+                        <li>10 de diciembre: Entrega de los Premios Nobel</li>
+                        <li>6-15 de diciembre: Campeonato Mundial de Halterofilia</li>
+                        <li>1-12 de diciembre: Campeonato Asiático de Balonmano Femenino</li>
+                        <li>28 de noviembre-15 de diciembre: Campeonato Europeo de Balonmano Femenino</li>
+                    </ul>
+                    <ul><a href="https://es.wikipedia.org/wiki/Anexo:Fallecidos_en_2024">Fallecimientos</a>
+                        <p></p>
+                        <li>10 de diciembre: Trino Mora, cantante y locutor venezolano (81)</li>
+                        <li>10 de diciembre: Mario Fernández Pelaz, jurista y político español (81)</li>
+                        <li>10 de diciembre: Mahieddine Khalef, futbolista y entrenador argelino (80)</li>
+                        <li>9 de diciembre: Dalton Trevisan, escritor brasileño (99)</li>
+                        <li>9 de diciembre: Arnold Yarrow, actor y escritor británico (104)</li>
+                        <li>9 de diciembre: Nikki Giovanni, escritora y activista estadounidense (81)</li>
+                        <li>9 de diciembre: Héctor Recalde, jurista y político argentino (86)</li>
+                        <li>9 de diciembre: Guillem Frontera, escritor, periodista y gestor cultural español (78-79)</li>
+                        <li>8 de diciembre: Roberto Ezequiel Gómez, beisbolista dominicano (35)8 de diciembre: Alain Fuchs, químico francosuizo (71)</li>
+                        <li>8 de diciembre: Tom Urrejola Díaz, cantante chileno (54)</li>
+                        <li>8 de diciembre: Marthe Katrine Myhre, atleta y esquiadora de fondo noruega (39)</li>
+                        <li>8 de diciembre: Şerif Gören, cineasta turco (80)</li>
+                        <li>8 de diciembre: Nikos Sarganis, futbolista griego (70)</li>
+                        <li>7 de diciembre: Iósif Vítebski, esgrimista ucraniano (86)</li>
+                        <li>7 de diciembre: Doychin Vasilev, actor búlgaro (80)</li>
+                        <li>7 de diciembre: Merv Rettenmund, beisbolista y entrenador estadounidense (81)</li>
+                        <li>7 de diciembre: Víctor Amador De Martino, político argentino (81)</li>
+                        <li>7 de diciembre: Yevgeni Aleinikov, tirador ruso (57)</li>
+                        <li>7 de diciembre: Orlando Rossardi, escritor cubano (86)</li>
+                        <li>6 de diciembre: Jesús Liberato Tobares, escritor, folclorista y jurista argentino (95)</li>
+                    </ul>
+                    <p></p>
+                    <ul><p><strong>Conmemoraciones y fiestas</strong></p>
+                        <li>12 de diciembre: Nuestra Señora de Guadalupe</li>
+                        <li>12 de diciembre: Día Internacional de la Neutralidad</li>
+                        <li>12 de diciembre: Día Internacional de la Cobertura Sanitaria Universal</li>
+                        <li>12 de diciembre: Día Nacional de Kenia</li>
+                        <li>11 de diciembre: Día Internacional de las Montañas</li>
+                        <li>11 de diciembre: Día en Recuerdo de los que Murieron en Argel</li>
+                        <li>10 de diciembre: Día de los Derechos Humanos</li>
+                    </ul>
+                    <p><strong>Vease tambien: </strong><a href="https://es.wikipedia.org/wiki/Categor%C3%ADa:Actualidad">Categoria:Actualidad</a>, <a href="https://es.wikipedia.org/wiki/2024">2024</a>, <a href="https://es.wikipedia.org/wiki/Categor%C3%ADa:2024">Categoria:2024</a></p>
+                    <div class="sub-1">
+                        <button class="sub-2"><a href="https://es.wikipedia.org/wiki/Portal:Actualidad)">Otros eventos actuales</a></button>
+                            <button class="puntitos"></button>
+                    </div>
+                </div>
+                <div class="destacadito">
+                    <p id="titulo-d">Efemerides</p>
+                    <a class="titulo" href="https://es.wikipedia.org/wiki/11_de_diciembre">11 de diciembre</a>
+                    <ul>
+                        <li>1724 (hace 300 años): Nace Carlos Teodoro del Palatinado y Baviera, monarca alemán (f. 1799).</li>
+                        <li>1924 (hace 100 años): Nace Charles Bachman, informático estadounidense (f. 2017).</li>
+                        <li>1974 (hace 50 años): Fallece Maravillas de Jesús, religiosa española (n. 1891).</li>
+                        <li>1974 (hace 50 años): Nace Rey Mysterio, luchador profesional estadounidense.</li>
+                        <li>1994 (hace 30 años): En Rusia, comienza la primera guerra chechena.</li>
+                    </ul>
+                    <div class="sub-1">
+                        <button class="sub-2"><a href="https://es.wikipedia.org/wiki/10_de_diciembre">10 de diciembre</a></button>
+                        <button class="sub-2"><a href="https://es.wikipedia.org/wiki/11_de_diciembre">11 de diciembre</a></button>
+                        <button class="sub-2"><a href="https://es.wikipedia.org/wiki/12_de_diciembre">12 de diciembre</a></button>
+                        <button class="puntitos"></button>
+                    </div>
+                </div>
+                <div class="destacadito">
+                    <p class="titulo"><a href="https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_projects">Otros proyectos</a> de la <a href="https://es.wikipedia.org/wiki/Fundaci%C3%B3n_Wikimedia">Fundacion Wikipedia</a></p>
+                    <div class="proyect-1">
+                        <div class="proyect-2">
+                            <div class="proyect-3">
+                                <img class="logo-p" src="materiales/Notification-icon-Commons-logo.svg.png" alt="common">
+                                <div><a href="https://commons.wikimedia.org/wiki/Portada">Commons</a>
+                                    <p>Imagenes y multimedia</p></div>
+                            </div>
+                            <div class="proyect-3">
+                                <img class="logo-p" src="materiales/Notification-icon-Wikidata-logo.svg.png" alt="common">
+                                <div><a href="https://www.wikidata.org/wiki/Wikidata:Portada">Wikidata</a>
+                                    <p>Base de datos libre</p></div>
+                            </div>
+                            <div class="proyect-3">
+                                <img class="logo-p" src="materiales/Notification-icon-Wikinews-logo.svg.png" alt="common">
+                                <div><a href="https://es.wikinews.org/wiki/Portada">Wikinoticias</a>
+                                    <p>Noticias libres</p></div>
+                            </div>
+                            <div class="proyect-3">
+                                <img class="logo-p" src="materiales/Notification-icon-Wikisource-logo.svg.webp" alt="common">
+                                <div><a href="https://es.wikisource.org/wiki/Portada">Wikisource</a>
+                                    <p>Biblioteca libre</p></div>
+                            </div>
+                            <div class="proyect-3">
+                                <img class="logo-p" src="materiales/Notification-icon-Wikiversity-logo.svg.png" alt="common">
+                                <div><a href="https://es.wikiversity.org/wiki/Portada">Wikiversidad</a>
+                                    <p>Recursos de aprendizaje</p></div>
+                            </div>
+                        </div>
+                        <div class="proyect-2">
+                            <div class="proyect-3">
+                                <img class="logo-p" src="materiales/Notification-icon-Wiktionary-logo.svg.png" alt="common">
+                                <div><a href="https://es.wiktionary.org/wiki/Wikcionario:Portada">Wikcionario</a>
+                                    <p>Diccionario libre</p></div>
+                            </div>
+                            <div class="proyect-3">
+                                <img class="logo-p" src="materiales/Notification-icon-Wikibooks-logo.svg.png" alt="common">
+                                <div><a href="https://es.wikibooks.org/wiki/Portada">Wikilibros</a>
+                                    <p>Libros de texto y manuales</p></div>
+                            </div>
+                            <div class="proyect-3">
+                                <img class="logo-p" src="materiales/Notification-icon-Wikiquote.svg.webp" alt="common">
+                                <div><a href="https://es.wikiquote.org/wiki/Portada">Wikiquote</a>
+                                    <p>Coleccion de citas</p></div>
+                            </div>
+                            <div class="proyect-3">
+                                <img class="logo-p" src="materiales/Notification-icon-Wikispecies-logo.svg.png" alt="common">
+                                <div><a href="https://species.wikimedia.org/wiki/Portada">Wikispecies</a>
+                                    <p>Directorio de especies</p></div>
+                            </div>
+                            <div class="proyect-3">
+                                <img class="logo-p" src="materiales/Notification-icon-Wikivoyage-logo.svg.png" alt="common">
+                                <div><a href="https://es.wikivoyage.org/wiki/es:P%C3%A1gina_principal">Wikiviajes</a>
+                                    <p>Guia de viajes</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proyect-4">
+                        <img class="logo-p" src="materiales/Notification-icon-Meta-logo.svg.png" alt="common">
+                        <div><p><a href="https://meta.wikimedia.org/wiki/Portada/es">Meta-Wiki</a> - Coordinacion de proyectos</p></div>
+                    </div>
+                </div>
+                <div class="b-idioma">
+                <button class="idiomas"></button>
+                </div>
+                <footer class="bajada">
+                    <div class="text-b">
+                        <p>El texto está disponible bajo la Licencia Creative Commons Atribución-CompartirIgual 4.0; pueden aplicarse cláusulas adicionales. Al usar este sitio aceptas nuestros términos de uso y nuestra política de privacidad.</p>
+                        <p>Wikipedia® es una marca registrada de la Fundación Wikimedia, una organización sin ánimo de lucro.</p>
+                        <ul class="nav-list">
+                            <li><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/es">Politica de privacidad</a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Wikipedia:Acerca_de">Acerca de Wikipedia</a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Wikipedia:Limitaci%C3%B3n_general_de_responsabilidad">Limitacion de responsabilidad</a></li>
+                            <li><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Codigo de conducta</a></li>
+                            <li><a href="https://developer.wikimedia.org/">Desarrolladores</a></li>
+                            <li><a href="https://stats.wikimedia.org/#/es.wikipedia.org">Estadisticas</a></li>
+                            <li><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement/es">Declaracion de cookies</a></li>
+                            <li><a href="https://es.m.wikipedia.org/w/index.php?title=Wikipedia:Portada&mobileaction=toggle_view_mobile">Version para Moviles</a></li>
+                        </ul>
+                        <div class="boton-f">
+                            <button class="wikp"><a href="https://wikimediafoundation.org/"> .</a></button>
+                            <button class="powm"><a href="https://www.mediawiki.org/"> .</a></button>
+                        </div>
+                    </div>
+            </footer>           
+            </div>
+        </div>
+    </div>
+    </div>
+<script>
+    var menu = document.getElementById("herramienta-menu")
+    var boton = document.getElementById("h-boton")
+    boton.addEventListener("click", function() {
+        if (menu.style.display==="block") {
+            menu.style.display="none"
+        }
+        else {
+            menu.style.display="block"
+        }
+    })
+    function Cambiartexto () {
+        expandir = document.getElementById ("expandir")
+        if (expandir === "Expandir todo") {
+            expandir.innerhtml = "Contraer todo";
+            }else {
+                expandir.innerhtml = "Expandir todo"
+            }
+    }
+</script>
+</body>
+</html>
