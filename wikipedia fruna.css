@@ -288,13 +288,13 @@ body {
 
 }
 
-#completito {
+.completito {
     background-image: url(materiales/Captura\ de\ pantalla\ 2024-12-12\ 010636.png);
     background-size: cover;
     border: 0;
     padding: 20px;
-    width: 400px;
-    height: 90px;
+    width: 500px;
+    height: 70px;
 }
 
 .sub-1 {
@@ -568,6 +568,7 @@ font-size: 15px;
         flex-direction: column;
     }
     .bajada {
+        padding-left: 0;
         right: 0;
         width: 540px;
     }
